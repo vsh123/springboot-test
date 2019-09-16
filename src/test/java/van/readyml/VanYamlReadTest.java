@@ -7,15 +7,15 @@ import org.springframework.boot.test.context.SpringBootTest;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest
-class ApplicationYamlReadTest {
+class VanYamlReadTest {
     @Autowired
-    private ApplicationYamlRead applicationYamlRead;
+    private VanYamlRead vanYamlRead;
 
     @Test
-    void yamlFileTest() {
-        String name = applicationYamlRead.getName();
+    void name() {
+        String age = vanYamlRead.getAge();
 
-        System.out.println("My name is " + name);
-        assertThat(name).isEqualTo("van");
+        System.out.println("My age is " + age);
+        assertThat(age).isEqualTo("300");
     }
 }
