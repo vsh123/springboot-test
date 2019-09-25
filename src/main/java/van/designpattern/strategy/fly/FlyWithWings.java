@@ -1,4 +1,4 @@
-package van.strategypattern.fly;
+package van.designpattern.strategy.fly;
 
 public class FlyWithWings implements FlyBehavior {
     @Override

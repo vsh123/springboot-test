@@ -1,7 +1,7 @@
-package van.strategypattern;
+package van.designpattern.strategy;
 
-import van.strategypattern.fly.NoFly;
-import van.strategypattern.quack.Squeak;
+import van.designpattern.strategy.fly.NoFly;
+import van.designpattern.strategy.quack.Squeak;
 
 public class ToyDuck extends Duck {
     public ToyDuck() {

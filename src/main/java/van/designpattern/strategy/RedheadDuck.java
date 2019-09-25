@@ -1,7 +1,7 @@
-package van.strategypattern;
+package van.designpattern.strategy;
 
-import van.strategypattern.fly.FlyWithWings;
-import van.strategypattern.quack.Quack;
+import van.designpattern.strategy.fly.FlyWithWings;
+import van.designpattern.strategy.quack.Quack;
 
 public class RedheadDuck extends Duck {
     public RedheadDuck() {

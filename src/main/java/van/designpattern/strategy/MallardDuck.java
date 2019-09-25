@@ -1,7 +1,7 @@
-package van.strategypattern;
+package van.designpattern.strategy;
 
-import van.strategypattern.fly.FlyWithWings;
-import van.strategypattern.quack.Quack;
+import van.designpattern.strategy.fly.FlyWithWings;
+import van.designpattern.strategy.quack.Quack;
 
 public class MallardDuck extends Duck {
     //아래와 같이 기본 생성시 Duck에서 가지고 있는 인스턴스 변수에 대한 구현체를 정의해줍니다.
