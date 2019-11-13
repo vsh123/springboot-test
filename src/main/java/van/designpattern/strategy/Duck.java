@@ -1,7 +1,7 @@
-package van.strategypattern;
+package van.designpattern.strategy;
 
-import van.strategypattern.fly.FlyBehavior;
-import van.strategypattern.quack.QuackBehavior;
+import van.designpattern.strategy.fly.FlyBehavior;
+import van.designpattern.strategy.quack.QuackBehavior;
 
 public abstract class Duck {
     //fly, quack 행동 인터페이스를 인스턴스 변수로 가진다.

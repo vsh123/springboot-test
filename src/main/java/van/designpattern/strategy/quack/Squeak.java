@@ -1,4 +1,4 @@
-package van.strategypattern.quack;
+package van.designpattern.strategy.quack;
 
 public class Squeak implements QuackBehavior {
     @Override
